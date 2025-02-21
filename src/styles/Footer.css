@@ -1,0 +1,50 @@
+footer {
+  background: #0074c7;
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 16px;
+  color: #f1f8fc;
+}
+
+.container {
+  width: 1440px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  background: #0074c7;
+  color: #f1f8fc;
+  
+}
+
+.contact {
+  text-align: right;
+  
+}
+
+h3 {
+  font-family: "Graphik";
+  font-size: 25px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 128px) and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-left: 10px;
+    gap: 20px;
+  }
+  .footer-content p {
+    width: auto;
+    padding: 0;
+  }
+  .footer-content li {
+    width: auto;
+    padding: 0;
+  }
+}

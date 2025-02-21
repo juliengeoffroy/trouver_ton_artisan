@@ -1,0 +1,4 @@
+.artisans-list {
+  display: flex; /* Utilisation de Flexbox pour la disposition */
+  flex-wrap: wrap; /* Permet aux éléments de se déplacer sur plusieurs lignes si nécessaire */
+}

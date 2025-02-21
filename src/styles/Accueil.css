@@ -1,0 +1,140 @@
+.card-group {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f8fc;
+  margin: 20px;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  background-color: #0074c7 ;
+  color: #f1f8fc;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+.card-title {
+  color: #00497c;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+.card-text h3 {
+  font-size: 16px;
+  color: #0074c7;
+}
+
+.card-text p {
+  font-size: 16px;
+  color: #384050;
+}
+
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.artisan-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.artisan-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.artisan-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.view-details-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #af4c4c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.view-details-btn:hover {
+  background-color: #0074c7;
+}
+/* Style du formulaire */
+.contact-form {
+  margin-top: 20px;
+}
+
+.contact-form div {
+  margin-bottom: 10px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (min-width:128px) and (max-width:900px) {
+  .card-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+ }
+@media (max-width:700px) {
+  section.card-group {
+    margin: 0;
+  }   
+}
